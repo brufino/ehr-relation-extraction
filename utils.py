@@ -334,6 +334,7 @@ def read_ade_data(ade_data_dir: str = 'ade_data/',
             ade_data.extend(data)
 
     ade_data = process_ade_files(ade_data)
+
     if verbose == 1:
         print("\n\nADE data: Done")
 

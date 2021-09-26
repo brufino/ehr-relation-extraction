@@ -36,6 +36,7 @@ runs/
 results/
 notebooks/
 predicted_annotations/
+tmp/
 
 # IntelliJ files
 /annotating-ehr.iml

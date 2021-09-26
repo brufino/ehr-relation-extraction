@@ -335,7 +335,6 @@ def generate_re_input_files(ehr_records: List[HealthRecord], filename: str,
                     write_file(file, index, final_text, label, sep, is_test, is_label)
                     index_rel_label_map.append({'label': label, 'relation': rel})
                     index += 1
-
     filename, ext = filename.split('.')
     utils.save_pickle(filename+'_rel.pkl', index_rel_label_map)
 

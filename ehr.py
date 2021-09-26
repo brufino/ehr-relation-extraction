@@ -176,7 +176,7 @@ class HealthRecord:
 
             else:
                 # If the annotation is not a relation or entity, warn user
-                warnings.warn("Invalid annotation encountered: " + str(line))
+                warnings.warn("Invalid annotation encountered: " + str(line) +str(path))
 
         for r in relation_backlog:
             rel = Relation(relation_id=r[0], relation_type=r[1],
